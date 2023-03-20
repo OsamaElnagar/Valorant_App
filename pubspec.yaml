@@ -1,0 +1,39 @@
+name: valorant
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0-290.0.dev <4.0.0"
+
+dependencies:
+  audioplayers: ^0.20.1
+  bloc: ^8.1.1
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  http: ^0.13.5
+  flutter_svg: ^1.0.3
+  animated_splash_screen:
+  shared_preferences:
+  lottie:
+
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/lottie/
+    - assets/images/
+    - assets/fonts/
+    - assets/icons/
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
